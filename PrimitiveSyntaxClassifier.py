@@ -6,7 +6,7 @@ import Alphabets
 
 class Classifier:
     anchors = []
-    sub_phrase_data = [] # type: List[SubPhraseData]
+    sub_phrase_data = []  # type: List[SubPhraseData]
     valid_sub_phrases = []
     invalid_sub_phrases = []
     phrases = []
@@ -31,6 +31,7 @@ class Classifier:
                 return False
             phrase = split[1]
             sub_phrases.append(split[0])
+        sub_phrases.append(phrase)
         for i, sub_phrase in enumerate(sub_phrases):
             data = self.sub_phrase_data[i]
             if data.min_alphabet.difference(_char_info(sub_phrase)):
@@ -56,7 +57,7 @@ class Classifier:
             else:
                 invalid_phrases.update([phrase])
 
-        anchors = anchor_points(valid_phrases)[-1]
+        anchors = max(anchor_points(valid_phrases), key=len)
         valid_sub_phrases = [[] for t in range(len(anchors) + 1)]
         invalid_sub_phrases = [[] for t in range(len(anchors) + 1)]
 
@@ -176,7 +177,7 @@ def anchor_points(inputs):
         for a, combi in enumerate(combis):
             result += _all_possible_orderings(inputs, combi)
 
-    return list(set(result))
+    return set(result)
 
 
 def _char_occurrences(word_list):

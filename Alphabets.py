@@ -1,8 +1,10 @@
+# coding=utf-8
 class Alphabet:
     name = None,
     members = None
 
     def __init__(self, name="unlabeled", members=None):
+        # type: (object, object) -> object
         if members is None:
             members = set()
         self.members = members
