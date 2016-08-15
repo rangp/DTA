@@ -1,7 +1,6 @@
 import random
 import datetime
-import PrimitiveSyntaxClassifier
-import PrimitiveSemanticsClassifier
+import SupervisedValidator
 
 mail_addresses = ["p.rang@yellostrom.de", "adade@web.de", "patrick@enbw.com", "test1223@123.co.uk",
                   "dae2231hsdacaee@mail-v.com", "asd@wsdl.to"]
@@ -44,8 +43,8 @@ false_names = ["Claudio P1zzaro", "EINSZweiDrei Vier", "MaddonA MIA", "ALLESSAND
 
 names = [(name, True) for name in true_names] + [(name, False) for name in false_names]
 dates = [(date, False) for date in false_dates] + [
-    (datetime.datetime.fromtimestamp(random.randint(0, 4119604448)).date().isoformat(), True) for i in range(300)]
+    (datetime.datetime.fromtimestamp(random.randint(0, 4119604448)).date().isoformat(), True) for i in range(30000)]
 
-clf = PrimitiveSemanticsClassifier.Classifier.from_data(dates)
+clf = SupervisedValidator.Validator.from_data(dates)
 
-print(clf.classify("2016-12-10"))
+print(clf.validate("2016-12-10"))
