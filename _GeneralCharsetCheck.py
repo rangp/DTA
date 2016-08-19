@@ -13,7 +13,6 @@ class Classifier:
         Alphabets.consonants,
         Alphabets.vocals,
         Alphabets.numbers,
-        Alphabets.punctuation,
     ]
 
     def __init__(self, validator):
