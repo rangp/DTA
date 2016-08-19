@@ -15,6 +15,9 @@ class Classifier:
 
     def classify(self, phrase):
         sub_phrases = self.validator.split_into_sub_phrases(phrase)
+        if len(sub_phrases) is 0:
+            return False
+
         for pos, sub_phrase in enumerate(sub_phrases):
             prev_phrases = sub_phrases[:pos]
             for i in range(1, pos + 1):

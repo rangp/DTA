@@ -1,5 +1,5 @@
 {
-"valid": {
+"valid": [
 "Stewart X. Mullins",
 "Casey U. Reese",
 "Kevyn Coleman",
@@ -1000,9 +1000,9 @@
 "Emerson Bowers",
 "Kaye G. Acevedo",
 "Ria T. Buckner"
-},
+],
 "invalid":
-{
+[
 "Jesse Ksdade. Alvarado",
 "Driscoll",
 "Katelyn Rey123es",
@@ -1105,5 +1105,5 @@
 "son Bowers",
 "G. Acevedo",
 "T. Buckner"
-}
+]
 }

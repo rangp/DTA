@@ -14,7 +14,11 @@ class Classifier:
         self.__train()
 
     def classify(self, phrase):
-        for i, sub_phrase in enumerate(self.validator.split_into_sub_phrases(phrase)):
+        sub_phrases = self.validator.split_into_sub_phrases(phrase)
+        if len(sub_phrases) is 0:
+            return False
+
+        for i, sub_phrase in enumerate(sub_phrases):
             pred_map = self.sub_phrase_function_maps[i]
             pred_pos_map = self.sub_phrase_position_function_maps[i]
             for pos, char in enumerate(sub_phrase):

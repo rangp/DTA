@@ -50,7 +50,6 @@ class Validator:
 
                 if len(split) != 2:
                     # item is invalid by anchor test and can be safely removed
-                    invalid_phrases.remove(phrase)
                     forced_break = True
                     break
                 phrase = split[1]
@@ -91,24 +90,14 @@ class Validator:
             self._training_recall, self._training_precision = recall, precision
 
     def _measure_performance(self):
-        false_positives, false_negatives = 0, 0
-        true_phrases, false_phrases = 0, 0
-        for (phrase, is_valid) in self.phrases:
-            classification = self.validate(phrase)
-            if is_valid is False:
-                false_phrases += 1
-                if classification is True: false_positives += 1
-            if is_valid is True:
-                true_phrases += 1
-                if classification is False: false_negatives += 1
-
-        return (1.0 - float(false_negatives) / float(true_phrases),
-                1.0 - float(false_positives) / float(false_phrases))
+        return measure_performance(self, self.phrases)
 
     def split_into_sub_phrases(self, phrase):
         sub_phrases = []
         for delimiter in self.delimiters:
             split = phrase.split(delimiter, 1)
+            if len(split) is not 2:
+                return []
             phrase = split[1]
             sub_phrases.append(split[0])
         sub_phrases.append(phrase)
@@ -194,3 +183,21 @@ def coverage_probability(full_amount, cover_amount, number_of_data):
                                                                                  cover_amount - k) / cover_amount) ** number_of_data
 
     return p, pc
+
+
+def measure_performance(classifier, phrases):
+    false_positives, false_negatives = 0, 0
+    retrievals = 0
+    for (phrase, is_valid) in phrases:
+        classification = classifier.validate(phrase)
+        if is_valid is False:
+            if classification is True:
+                false_positives += 1
+                retrievals += 1
+        if is_valid is True:
+            if classification is False:
+                false_negatives += 1
+            else:
+                retrievals += 1
+
+    return float(retrievals - false_positives) / float(retrievals), float(retrievals - false_positives) / float(retrievals - false_positives + false_negatives)

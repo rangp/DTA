@@ -1,6 +1,6 @@
 {
 "valid":
-{
+[
 "commodo@lacus.ca",
 "nec.luctus.felis@etrutrum.org",
 "euismod.et.commodo@Nulla.com",
@@ -1001,9 +1001,9 @@
 "luctus.ipsum.leo@convallisligulaDonec.edu",
 "metus.urna@molestie.org",
 "ipsum.Suspendisse.non@pedeac.com"
-},
+],
 "invalid":
-{
+[
 "mauris.r#honcus@ligula.org",
 "dui@edu",
 "risus.quis@egetnisidictumca",
@@ -1034,7 +1034,7 @@
 "Cras.eu.tellus",
 "Cum",
 "orciß1.in.consequat@egetmagna.net",
-"In.lorem.Donec@cursu\spurus.edu",
+"In.lorem.Donec@cursus=purus.edu",
 "Mauris@metusurna.edu",
 "mi@arcuVest/ibulum.co.uk",
 "dictum@vulputateullamcorpermagna.net",
@@ -1078,5 +1078,5 @@
 "----luctus.ipsum.leo@convallisligulaDonec.edu",
 "-metus.urna@molestie.org",
 "§ipsum.Suspendisse.non@pedeac.com"
-}
+]
 }

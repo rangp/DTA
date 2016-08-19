@@ -20,7 +20,11 @@ class Classifier:
         self.__train()
 
     def classify(self, phrase):
-        for i, sub_phrase in enumerate(self.validator.split_into_sub_phrases(phrase)):
+        sub_phrases = self.validator.split_into_sub_phrases(phrase)
+        if len(sub_phrases) is 0:
+            return False
+
+        for i, sub_phrase in enumerate(sub_phrases):
             data = self.sub_phrase_data[i]
             if data.min_charset.difference(_char_info(sub_phrase)):
                 # sub_phrase does not consist of the minimal ordered alphabet
