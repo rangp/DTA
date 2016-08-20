@@ -1,0 +1,3769 @@
+{
+  "name": "References/Lead-Author",
+  "description": "",
+  "regexTarget": "(?<!:.{0,500})(?<=\\d{1,4}\\.\\s)[\\pL\\w\\-'\"][\\pL\\w_\\-'\" ]*, [A-Z.]+",
+  "examples": [
+    {
+      "string": "19. Allen, M.P., Tildesley, D.J.: Computer simulation of liquids. Oxford university press (1989)",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "string": "62. Varcoe, J.R., Slade, R.C.: Prospects for alkaline anion-exchange membranes in low temperature fuel cells. Fuel cells 5(2) (2005) 187–200",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "string": "92. Tharin, S., Golby, A.: Functional brain mapping and its applications to neurosurgery. Neurosurgery 60(4) (2007) 185–202",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "string": "29. Bernstein, D.I., Glass, R.I., Rodgers, G., Davidson, B.L., Sack, D.A., Anderson, E., Bernstein, D., Ward, R., Chartrand, S., Cherry, J., et al.: Evaluation of rhesus rotavirus monovalent and tetravalent reassortant vaccines in us children. JAMA: the journal of the American Medical Association 273(15) (1995) 1191–1196",
+      "match": [
+        {
+          "start": 4,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 19,
+          "end": 322
+        }
+      ]
+    },
+    {
+      "string": "128. Hedin, A.E.: Extension of the msis thermosphere model into the middle and lower atmosphere. Journal of Geophysical Research: Space Physics (1978–2012) 96(A2) (1991) 1159–1172",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "string": "131. Trenberth, K.E., Hurrell, J.W.: Decadal atmosphere-ocean variations in the pacific. Climate Dynamics 9(6) (1994) 303–319",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "string": "158. Einhorn, R.J., Samore, G.: Ending russian assistance to iran’s nuclear bomb. Survival 44(2) (2002) 51–70",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "string": "41. Alighieri, D.: La divina commedia. Inferno. Armando Editore (2002)",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "string": "119. Atmosphere, U.S.: National oceanic and atmospheric administration. National Aeronautics and Space Administration, and United States Air Force, Washington, DC (1976)",
+      "match": [
+        {
+          "start": 5,
+          "end": 21
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 21,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "string": "101. Le Gall, B.: Evidence of an imbricate crustal thrust belt in the southern british variscides. contribution of swat deep sismic reflection profiling recorded in the english channel and the celtic sea. Tectonics 9(2) (1990) 283–302",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 234
+        }
+      ]
+    },
+    {
+      "string": "59. D'Ovidio, F.: Studii sulla Divina commedia. R. Sandron (1901)",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "string": "78. Park, S., Vohs, J.M., Gorte, R.J.: Direct oxidation of hydrocarbons in a solidoxide fuel cell. Nature 404(6775) (2000) 265–267",
+      "match": [
+        {
+          "start": 4,
+          "end": 12
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 12,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "string": "71. Kreuer, K.: On the development of proton conducting polymer membranes for hydrogen and methanol fuel cells. Journal of membrane science 185(1) (2001) 29–39",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 159
+        }
+      ]
+    },
+    {
+      "string": "61. Arico, A., Srinivasan, S., Antonucci, V.: Dmfcs: from fundamental aspects to technology development. Fuel cells 1(2) (2001) 133–161",
+      "match": [
+        {
+          "start": 4,
+          "end": 13
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 13,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "string": "103. Giuffrè, A.: Restauro e sicurezza in zona sismica. la cattedrale di s. angelo dei e lombardi. Palladio (1) (1988) 95–120",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "string": "190. Eicken, H., Lovecraft, A.L., Druckenmiller, M.L.: Sea-ice system services: A framework to help identify and meet information needs relevant for arctic observing networks. Arctic (2009) 119–136",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 197
+        }
+      ]
+    },
+    {
+      "string": "118. Mander, J., Dhakal, R., Mashiko, N.: Incremental dynamic analysis applied to seismic risk assessment of bridges. (2006)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 124
+        }
+      ]
+    },
+    {
+      "string": "144. Spalding, K.L., Buchholz, B.A., Bergman, L.E., Druid, H., Frisén, J.: Forensics: e age written in teeth by nuclear tests. Nature 437(7057) (2005) 333–334",
+      "match": [
+        {
+          "start": 5,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 19,
+          "end": 158
+        }
+      ]
+    },
+    {
+      "string": "26. Vesikari, T., Matson, D.O., Dennehy, P., Van Damme, P., Santosham, M., Rodriguez, Z., Dallas, M.J., Heyse, J.F., Goveia, M.G., Black, S.B., et al.: Safety and efficacy of a pentavalent human–bovine (wc3) reassortant rotavirus vaccine. New England Journal of Medicine 354(1) (2006) 23–33",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 290
+        }
+      ]
+    },
+    {
+      "string": "45. Alighieri, D.: La divina commedia, a cura di n. Sapegno (Firenze: La Nuova Italia, 1955) (1957)",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "string": "197. Lovecraft, H.P.: HP Lovecraft: Tales: Tales. Library of America (2005)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "string": "69. Kerres, J.: Blended and cross-linked ionomer membranes for application in membrane fuel cells. Fuel Cells 5(2) (2005) 230–247",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "string": "124. Finlayson-Pitts, B.J., Pitts Jr, J.N.: Chemistry of the upper and lower atmosphere: theory, experiments, and applications. Access Online via Elsevier (1999)",
+      "match": [
+        {
+          "start": 5,
+          "end": 26
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 26,
+          "end": 161
+        }
+      ]
+    },
+    {
+      "string": "181. Chapin III, F.S., Trainor, S.F., Huntington, O., Lovecraft, A.L., Zavaleta, E., Natcher, D.C., McGuire, A.D., Nelson, J.L., Ray, L., Calef, M., et al.: Increasing wildfire in alaska’s boreal forest: pathways to potential solutions of a wicked problem. BioScience 58(6) (2008) 531–540",
+      "match": [
+        {
+          "start": 5,
+          "end": 21
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 21,
+          "end": 288
+        }
+      ]
+    },
+    {
+      "string": "73. Xiao, L., Zhang, H., Jana, T., Scanlon, E., Chen, R., Choe, E.W., Ramanathan, L., Yu, S., Benicewicz, B.: Synthesis and characterization of pyridine-based polybenzimidazoles for high temperature polymer electrolyte membrane fuel cell applications. Fuel Cells 5(2) (2005) 287–295",
+      "match": [
+        {
+          "start": 4,
+          "end": 12
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 12,
+          "end": 282
+        }
+      ]
+    },
+    {
+      "string": "170. Garin, E., Jackson, C., Allen, J.: Astrology in the Renaissance: The Zodiac of Life. Routledge & Kegan Paul (1983)",
+      "match": [
+        {
+          "start": 5,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 14,
+          "end": 119
+        }
+      ]
+    },
+    {
+      "string": "110. CETRARO, F.: Indagini geofisiche del suolo. Metodi geoelettrici, prospezione sismica, tomografia, tecniche GPR-Georadar, metodologia TDEM, archeometria, EPC Libri, Roma (2008)",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 180
+        }
+      ]
+    },
+    {
+      "string": "16. Rogers, D.F., Adams, J.A.: Mathematical elements for computer graphics. McGraw-Hill Higher Education (1989)",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "string": "164. Cumont, F.V.M.: Astrology and Religion among the Greeks and Romans. GP Putnam (1912)",
+      "match": [
+        {
+          "start": 5,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 19,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "string": "140. Feely, H.W., Spar, J.: Tungsten-185 from nuclear bomb tests as a tracer for stratospheric meteorology. Nature 188 (1960)",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "string": "9. Sarin, S., Greif, I.: Computer-based real-time conferencing systems. Computer 18(10) (1985) 33–45",
+      "match": [
+        {
+          "start": 3,
+          "end": 12
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 12,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "string": "153. Jenkins, B.M.: Will terrorists go nuclear? Rand Corporation (1975)",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "string": "108. Kasai, A., Ge, H., Usami, T.: Sismic performance of partially concrete-filled steel bridge piers. Bridge and Foundation Engineering 31(9) (1997) 23–29",
+      "match": [
+        {
+          "start": 5,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 14,
+          "end": 155
+        }
+      ]
+    },
+    {
+      "string": "53. Marzot, G.: Il linguaggio biblico nella Divina Commedia. Volume 17. Nistri-Lischi (1956)",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "string": "182. Baldick, C., Aiken, A.L., Cumberland, R., Crookenden, I., Borel, P., Wadham, J., Poe, E.A., Le Fanu, S., Hawthorne, N., Harte, B., et al.: The Oxford Book of Gothic Tales. Oxford University Press Oxford (1993) ",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 215
+        }
+      ]
+    },
+    {
+      "string": "147. Bergmann, O., Bhardwaj, R.D., Bernard, S., Zdunek, S., Barnabé-Heider, F., e Walsh, S., Zupicich, J., Alkass, K., Buchholz, B.A., Druid, H., et al.: Evidence for cardiomyocyte renewal in humans. Science 324(5923) (2009) 98–102",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 231
+        }
+      ]
+    },
+    {
+      "string": "64. Appleby, A.J.: Fuel cell handbook. (1988)",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "string": "18. Parhami, B.: Computer arithmetic: algorithms and hardware designs. Oxford University Press, Inc. (2009)",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "string": "8. Duncan, R.: A survey of parallel computer architectures. Computer 23(2) (1990) 5–16",
+      "match": [
+        {
+          "start": 3,
+          "end": 13
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 13,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "string": "195. Trainor, S.F., Calef, M., Natcher, D., Chapin, F.S., McGuire, A.D., Huntington, O., Duffy, P., Rupp, T.S., DeWilde, L., Kwart, M., et al.: Vulnerability and adaptation to climate-related fire impacts in rural and urban interior alaska. Polar Research 28(1) (2009) 100–118",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 276
+        }
+      ]
+    },
+    {
+      "string": "159. Curry, P.: Prophecy and power: astrology in early modern England. Princeton University Press (1989)",
+      "match": [
+        {
+          "start": 5,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 14,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "string": "49. Sarolli, G.R.: Prolegomena alla Divina commedia. Volume 112. LS Olschki (1971)",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "string": "148. Spalding, K.L., Arner, E., Westermark, P.O., Bernard, S., Buchholz, B.A., Bergmann, O., Blomqvist, L., Hoffstedt, J., Näslund, E., Britton, T., et al.: Dya namics of fat cell turnover in humans. Nature 453(7196) (2008) 783–787",
+      "match": [
+        {
+          "start": 5,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 19,
+          "end": 231
+        }
+      ]
+    },
+    {
+      "string": "38. Ruuska, T., Vesikari, T.: Rotavirus disease in finnish children: use of numerical scores for clinical severity of diarrhoeal episodes. Scandinavian journal of infectious diseases 22(3) (1990) 259–267",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 203
+        }
+      ]
+    },
+    {
+      "string": "135. McClatchey, R.A., Fenn, R., Selby, J.A., Volz, F., Garing, J.: Optical properties of the atmosphere. Technical report, DTIC Document (1972)",
+      "match": [
+        {
+          "start": 5,
+          "end": 21
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 21,
+          "end": 144
+        }
+      ]
+    },
+    {
+      "string": "82. Hopf, N.J., Perneczky, A.: Endoscopic neurosurgery and endoscope-assisted microneurosurgery for the treatment of intracranial cysts. Neurosurgery 43(6) (1998) 1330–1336",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "string": "186. Lovecraft, H.P.: At the mountains of madness. United Holdings Group (1964)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "string": "25. Herring, A., Inglis, N., Ojeh, C., Snodgrass, D., , Menzies, J.: Rapid diagnosis of rotavirus infection by direct detection of viral nucleic acid in silver-stained polyacrylamide gels. Journal of Clinical Microbiology 16(3) (1982) 473–477",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 242
+        }
+      ]
+    },
+    {
+      "string": "68. Steele, B.C., Heinzel, A.: Materials for fuel-cell technologies. Nature 414(6861) (2001) 345–352",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "string": "39. Cunliffe, N.A., Gondwe, J.S., Broadhead, R.L., Molyneux, M.E., Woods, P.A., Bresee, J.S., Glass, R.I., Gentsch, J.R., Hart, C.A.: Rotavirus g and p types in children with acute diarrhea in blantyre, malawi, from 1997 to 1998: predominance of novel p [6] g8 strains. Journal of medical virology 57(3) (1999) 308–312",
+      "match": [
+        {
+          "start": 4,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 18,
+          "end": 318
+        }
+      ]
+    },
+    {
+      "string": "42. Dante, A., Casini, T., Barbi, S.: La divina commedia. Mursia (1965)",
+      "match": [
+        {
+          "start": 4,
+          "end": 13
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 13,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "string": "155. MacAskill, E., Traynor, I.: Saudis consider nuclear bomb. The Guardian 18 (2003)",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "string": "51. Ciacci, G.: Gli Aldobrandeschi nella storia e nella storia e nella” Divina commedia”... Volume 1. Biblioteca d’arte editrice (1935)",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "string": "28. GenTSCH, J.R., Glass, R., Woods, P., Gouvea, V., Gorziglia, M., Flores, J., Das, B., Bhan, M.: Identification of group a rotavirus gene 4 types by polymerase chain reaction. Journal of Clinical Microbiology 30(6) (1992) 1365–1373",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 233
+        }
+      ]
+    },
+    {
+      "string": "89. Standefer, M., Bay, J.W., Trusso, R.: The sitting position in neurosurgery: a retrospective analysis of 488 cases. Neurosurgery 14(6) (1984) 649–658",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 152
+        }
+      ]
+    },
+    {
+      "string": "44. Singleton, C.S.: La poesia della Divina commedia. Societ` editrice il Mulino a (1978)",
+      "match": [
+        {
+          "start": 4,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 19,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "string": "109. Taojing, W., Jianzhong, L., Zhongguo, G.: Bi directional coupled effect of friction pendulum system on sismic responses of an isolated bridge [j]. Journal of Vibration and Shock 30(2) (2011) 119–122",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 203
+        }
+      ]
+    },
+    {
+      "string": "32. Estes, M.K., Cohen, J.: Rotavirus gene structure and function. Microbiological Reviews 53(4) (1989) 410",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "string": "86. Hamilton, M.G., Hull, R.D., Pineo, G.F.: Venous thromboembolism in neurosurgery and neurology patients: a review. Neurosurgery 34(2) (1994) 280–296",
+      "match": [
+        {
+          "start": 4,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 18,
+          "end": 151
+        }
+      ]
+    },
+    {
+      "string": "117. Louat, R., Dupont, J.: Sismic¬ ite de i’arc des tonga-rermadec: in contribution a l’etude geodynamique du sud-ouest pacifique: Equipe geologie-geophysique noumea. Travaux et Docu ments de l’ORSTOM (1982) 299–318",
+      "match": [
+        {
+          "start": 5,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 14,
+          "end": 216
+        }
+      ]
+    },
+    {
+      "string": "152. De Vathaire, F., Le Vu, B., Challeton-de Vathaire, C.: Thyroid cancer in french polynesia between 1985 and 1995: influence of atmospheric nuclear bomb tests performed at mururoa and fangataufa between 1966 and 1974. Cancer Causes & Control 11(1) (2000) 59–63",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 263
+        }
+      ]
+    },
+    {
+      "string": "74. Gubler, L., Gürsel, S.A., Scherer, G.: Radiation grafted membranes for polymer u electrolyte fuel cells. Fuel Cells 5(3) (2005) 317–335",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "string": "70. O'Hayre, R.P., Cha, S.W., Colella, W., Prinz, F.B.: Fuel cell fundamentals. John Wiley & Sons New York (2006)",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "string": "151. Shaikh, F.: Pakistans nuclear bomb: beyond the non-proliferation regime. International Affairs 78(1) (2002) 29–48",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 118
+        }
+      ]
+    },
+    {
+      "string": "105. Northrop, J., Tyson, L.E., Ransone, M.A.: Long-range multiple arrivals received at deep hydrophones from shots in the gulf of maine. The Journal of the Acoustical Society of America 36 (1964) 215",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 200
+        }
+      ]
+    },
+    {
+      "string": "138. Webster, P.J., Moore, A.M., Loschnigg, J.P., Leben, R.R.: Coupled ocean– atmosphere dynamics in the indian ocean during 1997–98. Nature 401(6751) (1999) 356–360",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 165
+        }
+      ]
+    },
+    {
+      "string": "27. Ruiz-Palacios, G.M., Pérez-Schael, I., Velázquez, F.R., Abate, H., Breuer, T., Clemens, S.C., Cheuvart, B., Espinoza, F., Gillard, P., Innis, B.L., et al.: Safety and efficacy of an attenuated vaccine against severe rotavirus gastroenteritis. New England Journal of Medicine 354(1) (2006) 11–22",
+      "match": [
+        {
+          "start": 4,
+          "end": 23
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 23,
+          "end": 298
+        }
+      ]
+    },
+    {
+      "string": "33. Murphy, T.V., Gargiullo, P.M., Massoudi, M.S., Nelson, D.B., Jumaan, A.O., Okoro, C.A., Zanardi, L.R., Setia, S., Fair, E., LeBaron, C.W., et al.: Intussusception among infants given an oral rotavirus vaccine. New England Journal of Medicine 344(8) (2001) 564–572",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 267
+        }
+      ]
+    },
+    {
+      "string": "90. De Benedittis, G., Lorenzetti, A., Migliore, M., Spagnoli, D., Tiberio, F., Villani, R.M.: Postoperative pain in neurosurgery: a pilot study in brain surgery. Neurosurgery 38(3) (1996) 466–470",
+      "match": [
+        {
+          "start": 4,
+          "end": 21
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 21,
+          "end": 196
+        }
+      ]
+    },
+    {
+      "string": "20. Parashar, U.D., Hummelman, E.G., Bresee, J.S., Miller, M.A., Glass, R.I.: Global illness and deaths caused by rotavirus disease in children. Emerging infectious diseases 9(5) (2003) 565",
+      "match": [
+        {
+          "start": 4,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 18,
+          "end": 189
+        }
+      ]
+    },
+    {
+      "string": "23. Gouvea, V., Glass, R.I., Woods, P., Taniguchi, K., Clark, H.F., Forrester, B., Fang, Z.Y.: Polymerase chain reaction amplification and typing of rotavirus nucleic acid from stool specimens. Journal of Clinical Microbiology 28(2) (1990) 276–282",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 247
+        }
+      ]
+    },
+    {
+      "string": "84. Hall, W.A., Liu, H., Martin, A.J., Pozza, C.H., Maxwell, R.E., Truwit, C.L.: Safety, efficacy, and functionality of high-field strength interventional magnetic resonance imaging for neurosurgery. Neurosurgery 46(3) (2000) 632–642",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 233
+        }
+      ]
+    },
+    {
+      "string": "30. Santos, N., Hoshino, Y.: Global distribution of rotavirus serotypes/genotypes and its implication for the development and implementation of an effective rotavirus vaccine. Reviews in medical virology 15(1) (2005) 29–56",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 222
+        }
+      ]
+    },
+    {
+      "string": "145. Meyer, W., Loyalka, S., Nelson, W., Williams, R.: Homemade nuclear bomb syndrome. Nucl. Saf.;(United States) 18(4) (1977)",
+      "match": [
+        {
+          "start": 5,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 14,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "string": "11. Cockburn, A., Highsmith, J.: Agile software development, the people factor. Computer 34(11) (2001) 131–133",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "string": "72. Hickner, M., Pivovar, B.: The chemical and structural nature of proton exchange membrane fuel cell properties. Fuel cells 5(2) (2005) 213–229",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 145
+        }
+      ]
+    },
+    {
+      "string": "21. DIARRHOEA, R.: Rotavirus and other viral diarrhoeas. Bulletin of the World Health Organization 58(2) (1980) 183–198",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 119
+        }
+      ]
+    },
+    {
+      "string": "137. Lacis, A.A., Hansen, J.: A parameterization for the absorption of solar radiation in the earth’s atmosphere. Journal of the Atmospheric Sciences 31(1) (1974) 118–133",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "string": "177. Wuthnow, R.: Astrology and marginality. Journal for the Scientific Study of Religion (1976) 157–168",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "string": "121. Gill, A.E.: Atmosphere-ocean dynamics. Volume 30. Academic press (1982)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "string": "174. Barton, T.: Power and knowledge: astrology, physiognomics, and medicine under the Roman Empire. University of Michigan Press (2002)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "string": "120. Brutsaert, W.: Evaporation into the atmosphere: theory, history, and applications. Reidel Dordrecht (1982)",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "string": "171. Brown, D.: Cuneiform monographs 18 mesopotamian planetary astronomyastrology. (2000)",
+      "match": [
+        {
+          "start": 5,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 14,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "string": "46. Delmay, B.: I personaggi della Divina Commedia. Volume 201. Olschki (1986)",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "string": "48. Alighieri, D., Sapegno, N., Cremascoli, F.: La divina commedia: Purgatorio. La Nuova Italia (2002)",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "string": "3. Grudin, J.: Computer-supported cooperative work: History and focus. Computer 27(5) (1994) 19–26",
+      "match": [
+        {
+          "start": 3,
+          "end": 13
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 13,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "string": "99. Rubino, G.J., Farahani, K., McGill, D., Van de Wiele, B., Villablanca, J.P., WangMathieson, A.: Magnetic resonance imaging-guided neurosurgery in the magnetic fringe fields: the next step in neuronavigation. Neurosurgery 46(3) (2000) 643–654",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 245
+        }
+      ]
+    },
+    {
+      "string": "34. Das, B.K., Gentsch, J.R., Cicirello, H.G., Woods, P.A., Gupta, A., Ramachandran, M., Kumar, R., Bhan, M., Glass, R.I.: Characterization of rotavirus strains from newborns in new delhi, india. Journal of Clinical Microbiology 32(7) (1994) 1820–1822",
+      "match": [
+        {
+          "start": 4,
+          "end": 13
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 13,
+          "end": 251
+        }
+      ]
+    },
+    {
+      "string": "162. Capp, B.S., Capp, B.: Astrology and the popular press: English almanacs, 1500-1800. Faber (1979)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "string": "4. Warneke, B., Last, M., Liebowitz, B., Pister, K.S.: Smart dust: Communicating with a cubic-millimeter computer. Computer 34(1) (2001) 44–51",
+      "match": [
+        {
+          "start": 3,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 14,
+          "end": 142
+        }
+      ]
+    },
+    {
+      "string": "107. Winter, T., Niviere, B., Giamboni, M.: Active tectonics and sismic hazard in sundgau area. EUCORURGENT Annual Report (2000)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "string": "129. Kurucz, R.: Atlas9 stellar atmosphere programs and 2 km/s grid. ATLAS9 Stellar Atmosphere Programs and 2 km/s grid. Kurucz CD-ROM No. 13. Cambridge, Mass.: Smithsonian Astrophysical Observatory, 1993. 13 (1993)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 215
+        }
+      ]
+    },
+    {
+      "string": "125. Gregory, P.H., et al.: The microbiology of the atmosphere. The microbiology of the atmosphere. (1961)",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "string": "127. Donovan, R.J., Rossiter, J.R.: Store atmosphere: an environmental psychology approach. Journal of retailing 58(1) (1982) 34–57",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "string": "168. Geneva, A.: Astrology and the Seventeenth Century mind: William Lilly and the language of the stars. Manchester University Press Manchester (1995)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 151
+        }
+      ]
+    },
+    {
+      "string": "169. Gauquelin, M.: The cosmic clocks: From astrology to a modern science. H. Regnery Company (1967)",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "string": "130. Andrewes, D.G., Holton, J.R., Leovy, C.B.: Middle atmosphere dynamics. Number 40. Academic press (1987)",
+      "match": [
+        {
+          "start": 5,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 19,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "string": "165. Barton, T.: Ancient astrology. Routledge (2002)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "string": "37. Hoshino, Y., Sereno, M.M., Midthun, K., Flores, J., Kapikian, A.Z., Chanock, R.M.: Independent segregation of two antigenic specificities (vp3 and vp7) involved in neutralization of rotavirus infectivity. Proceedings of the National Academy of Sciences 82(24) (1985) 8701–8704",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 280
+        }
+      ]
+    },
+    {
+      "string": "98. Nakajima, S., Atsumi, H., Bhalerao, A.H., Jolesz, F.A., Kikinis, R., Yoshimine, T., Moriarty, T.M., Stieg, P.E.: Computer-assisted surgical planning for cerebrovascular neurosurgery. Neurosurgery 41(2) (1997) 403–410",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 220
+        }
+      ]
+    },
+    {
+      "string": "167. Smoller, L.A.: History, Prophecy, and the Stars: The Christian Astrology of Pierre D’Ailly, 1350-1420. Princeton University Press (1994)",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "string": "172. Rudhyar, D.: The astrology of personality. Garden City, NY (1970)",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "string": "65. Healy, J., Hayden, C., Xie, T., Olson, K., Waldo, R., Brundage, M., Gasteiger, H., Abbott, J.: Aspects of the chemical degradation of pfsa ionomers used in pem fuel cells. Fuel cells 5(2) (2005) 302–308",
+      "match": [
+        {
+          "start": 4,
+          "end": 13
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 13,
+          "end": 206
+        }
+      ]
+    },
+    {
+      "string": "113. Silvagni, S.: Ricostruzione in friuli: nota in margine ad una analisi tutta da fare. In: Coscienza della citta: edilizia e territorio nella realta italiana. Ente autonomo fiere di bologna (1981) 127–135",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 207
+        }
+      ]
+    },
+    {
+      "string": "17. Shneiderman, B., Ben, S.: Designing The User Interface: Strategies for Effective Human-Computer Interaction, 4/e (New Edition). Pearson Education India (2003)",
+      "match": [
+        {
+          "start": 4,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 19,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "string": "114. Cordaro, M., Gallo Curcio, A.: Testi normativi per il restauro di edifici storici a rischio sismico. Materiali e strutture: problemi di conservazione 7(1) (1997) 1–26",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "string": "198. Lovecraft, H.P.: The Dreams in the Witch House and Other Weird Stories. Penguin. com (2004) ",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "string": "142. Kennan, G.F.: Nuclear delusion: Soviet-american relations in the atomic age. (1982)",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "string": "104. Bonnin, J., Hackens, T., Helly, B.: La protezione e conservazione del patrimonio cultura le nelle zone a rischio sismico: atti del corso europeo di formzione= protection an d conservation of cultural heritage in regions of sismic (ie seismic). (1987)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 255
+        }
+      ]
+    },
+    {
+      "string": "5. Tichy, W.F.: Should computer scientists experiment more? Computer 31(5) (1998) 32–40",
+      "match": [
+        {
+          "start": 3,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 14,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "string": "85. Wirtz, C.R., Knauth, M., Staubert, A., Bonsanto, M.M., Sartor, K., Kunze, S., Tronnier, V.M.: Clinical evaluation and follow-up results for intraoperative magnetic resonance imaging in neurosurgery. Neurosurgery 46(5) (2000) 1112–1122",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 238
+        }
+      ]
+    },
+    {
+      "string": "175. Pingree, D.: Astronomy and astrology in india and iran. Isis 54(2) (1963) 229–246",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "string": "139. Perkovich, G.: India’s nuclear bomb: the impact on global proliferation. University of California Pr (2001)",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "string": "134. Warneck, P.: Chemistry of the natural atmosphere. Volume 71. Access Online via Elsevier (1999)",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "string": "67. De Bruijn, F., Dam, V., Janssen, G.: Review: durability and degradation issues of pem fuel cell components. Fuel Cells 8(1) (2008) 3–22",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "string": "178. Jerome, L.E.: Astrology disproved. Volume 424. Prometheus Books Buffalo, NY (1977)",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "string": "6. Welch, T.A.: A technique for high-performance data compression. Computer 17(6) (1984) 8–19",
+      "match": [
+        {
+          "start": 3,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 14,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "string": "66. Kordesch, K., Simader, G., Wiley, J.: Fuel cells and their applications. Volume 117. VCH Weinheim (1996)",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "string": "106. Sheperd, J., Tomblin, J., Wood, A.: Volcano-sismic crisis in montserrat, west indies, 1966-1967. Bull. Vole 35 (1971) 143–163",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "string": "176. Wedel, T.O.: The mediaeval attitude toward astrology: particularly in England. Volume 60. Yale University Press (1920)",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "string": "58. Vossler, K.: La divina commedia studiata nella sua genesi e interpretata. Traduzione di Stefano Jacini: pt. 1. La genesi letteraria. Volume 2. G. Laterza & figli (1927)",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "string": "24. Saavedra, J.M., Bauman, N., Perman, J., Yolken, R., Oung, I.: Feeding of bifidobacterium bifidum and streptococcus thermophilus to infants in hospital for prevention of diarrhoea and shedding of rotavirus. The Lancet 344(8929) (1994) 1046–1049",
+      "match": [
+        {
+          "start": 4,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 18,
+          "end": 247
+        }
+      ]
+    },
+    {
+      "string": "76. Ha, S., Larsen, R., Zhu, Y., Masel, R.: Direct formic acid fuel cells with 600 ma cm–2 at 0.4 v and 22 c. Fuel Cells 4(4) (2004) 337–343",
+      "match": [
+        {
+          "start": 4,
+          "end": 10
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 10,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "string": "185. Lovecraft, H.P.: El horror en la literatura. Alianza Editorial (2002)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "string": "157. Ishihara, T., Kumatori, T.: Chromosome studies on japanese exposed to radiation resulting from nuclear bomb explosions. Technical report, National Inst. of Radiological Sciences, Chiba, Japan (1968)",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 203
+        }
+      ]
+    },
+    {
+      "string": "63. Li, Q., He, R., Jensen, J., Bjerrum, N.: Pbi-based polymer membranes for high temperature fuel cells–preparation, characterization and fuel cell demonstration. Fuel Cells 4(3) (2004) 147–159",
+      "match": [
+        {
+          "start": 4,
+          "end": 10
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 10,
+          "end": 194
+        }
+      ]
+    },
+    {
+      "string": "13. Bernstein, F.C., Koetzle, T.F., Williams, G.J., Meyer Jr, E.F., Brice, M.D., Rodgers, J.R., Kennard, O., Shimanouchi, T., Tasumi, M.: The protein data bank: a computer-based archival file for macromolecular structures. Journal of molecular biology 112(3) (1977) 535–542",
+      "match": [
+        {
+          "start": 4,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 19,
+          "end": 273
+        }
+      ]
+    },
+    {
+      "string": "126. Louis, J.F.: A parametric model of vertical eddy fluxes in the atmosphere. Boundary-Layer Meteorology 17(2) (1979) 187–202",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "string": "81. Tronnier, V.M., Wirtz, C.R., Knauth, M., Lenz, G., Pastyr, O., Bonsanto, M.M., Albert, F.K., Kuth, R., Staubert, A., Schlegel, W., et al.: Intraoperative diagnostic and interventional magnetic resonance imaging in neurosurgery. Neurosurgery 40(5) (1997) 891–902",
+      "match": [
+        {
+          "start": 4,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 18,
+          "end": 265
+        }
+      ]
+    },
+    {
+      "string": "35. Velázquez, F.R., Matson, D.O., Calva, J.J., Guerrero, M.L., Morrow, A.L., Cartera Campbell, S., Glass, R.I., Estes, M.K., Pickering, L.K., Ruiz-Palacios, G.M.: Rotavirus infection in infants as protection against subsequent infections. New England Journal of Medicine 335(14) (1996) 1022–1028",
+      "match": [
+        {
+          "start": 4,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 19,
+          "end": 296
+        }
+      ]
+    },
+    {
+      "string": "132. Barrie, L., Bottenheim, J., Schnell, R., Crutzen, P., Rasmussen, R.: Ozone destruction and photochemical reactions at polar sunrise in the lower arctic atmosphere. (1988)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 175
+        }
+      ]
+    },
+    {
+      "string": "87. Flamm, E.S., Ransohoff, J., Wuchinich, D., Broadwin, A.: Preliminary experience with ultrasonic aspiration in neurosurgery. Neurosurgery 2(3) (1978) 240–245",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 160
+        }
+      ]
+    },
+    {
+      "string": "173. Capp, B.S.: English almanacs, 1500-1800: astrology and the popular press. Cornell University Press Ithaca, New York (1979)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "string": "79. Sarantaridis, D., Atkinson, A.: Redox cycling of ni-based solid oxide fuel cell anodes: A review. Fuel Cells 7(3) (2007) 246–258",
+      "match": [
+        {
+          "start": 4,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 20,
+          "end": 132
+        }
+      ]
+    },
+    {
+      "string": "111. Thinon, I., Bitri, A., Guennoc, P., Truffert, C.: Lev ́s sismique et magn ́tiques e e du plateau occidental de lˆ de basse-terre, guadeloupe (campagne geoberyx03), ıle apport a la compr ́hension du contexte structural du champ de bouillante= sismic ` e and magnetic of western basse-terre (campaign geoberyx03), implications for the structure of bouillante geothermal field. Technical report, BRGM/RP-53152-FR, BRGM report, Orleans, France (2004)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 451
+        }
+      ]
+    },
+    {
+      "string": "22. Parashar, U.D., Gibson, C.J., Bresee, J.S., Glass, R.I., et al.: Rotavirus and severe childhood diarrhea. Emerging infectious diseases 12(2) (2006) 304–306",
+      "match": [
+        {
+          "start": 4,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 18,
+          "end": 159
+        }
+      ]
+    },
+    {
+      "string": "112. Arellano-Baeza, A., Zverev, A., Malinnikov, V.: Study of the structure changes caused by earthquakes in chile applying the lineament analysis to the aster (terra) satellite data. In: 35th COSPAR Scientific Assembly. Volume 35. (2004) 3229",
+      "match": [
+        {
+          "start": 5,
+          "end": 23
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 23,
+          "end": 243
+        }
+      ]
+    },
+    {
+      "string": "187. Lovecraft, H.P.: Dagon and other macabre tales. Volume 3. Arkham House Pub (1987)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "string": "160. Cramer, F.H.: Astrology in Roman law and politics. Ares Chicagoˆ eIL IL (1996)",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "string": "91. Winston, K.R.: Hair and neurosurgery. Neurosurgery 31(2) (1992) 320–329",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "string": "143. Bhatia, S.: India’s nuclear bomb. Vikas Ghaziabad (1979)",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "string": "183. Lovecraft, H.P.: Horror Sobrenatural em Literatura, O. Editora Iluminuras Ltda (1998)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "string": "116. Socco, L., Strobbia, C., Sambuelli, L., Foti, S.: Integrazione di dati sismici ed elettrici per la caratterizzazione di un sito campione presso gli argini del fiume po. Proceedings of GNGTS, Roma, November (2001) 6–8",
+      "match": [
+        {
+          "start": 5,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 14,
+          "end": 221
+        }
+      ]
+    },
+    {
+      "string": "193. Lovecraft, H.P.: The Annotated Supernatural Horror in Literature. Hippocampus (2000)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "string": "75. Minh, N.Q.: Ceramic fuel cells. Journal of the American Ceramic Society 76(3) (1993) 563–588",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "string": "133. Tatarskii, V.I.: The effects of the turbulent atmosphere on wave propagation. (1971)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "string": "47. Alighieri, D., Landino, C., da Figino, P., Capcasa, M.: La divina commedia. G. Silvestri (1829)",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "string": "180. Chapin, F.S., Lovecraft, A.L., Zavaleta, E.S., Nelson, J., Robards, M.D., Kofinas, G.P., Trainor, S.F., Peterson, G.D., Huntington, H.P., Naylor, R.L.: Policy strategies to address sustainability of alaskan boreal forests in response to a directionally changing climate. Proceedings of the National Academy of Sciences 103(45) (2006) 16637–16643",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 350
+        }
+      ]
+    },
+    {
+      "string": "102. PATACCA, E.: Stratigraphic constraints on the crop-04 sismic line interpretation: San fele 1, monte foi 1 and san gregorio magno 1 wells (southern apennines, italy). Bollettino della Societ` Geologica Italiana. Volume speciale (7) (2007) 185–239 a",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 252
+        }
+      ]
+    },
+    {
+      "string": "95. Spicer, M.A., Apuzzo, M.L.: Virtual reality surgery: Neurosurgery and the contemporary landscape. Neurosurgery 52(3) (2003) 489–498",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "string": "83. Reinstrup, P., Ståhl, N., Mellergård, P., Uski, T., Ungerstedt, U., Nordström, C.H.: Intracerebral microdialysis in clinical practice: baseline values for chemical markers during wakefulness, anesthesia, and neurosurgery. Neurosurgery 47(3) (2000) 701–710",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 259
+        }
+      ]
+    },
+    {
+      "string": "43. Cerulli, E.: Il” Libro della scala” e la question delle fonti arabo-spagnole della Divina commedia. Volume 150. Biblioteca apostolica vaticana (1949)",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "string": "1. Ponce, J., Forsyth, D., Willow, E.P., Antipolis-Méditerranée, S., d'activité RAweb, R., Inria, L., Alumni, I.: Computer vision: a modern approach. Computer 16 (2011) 11",
+      "match": [
+        {
+          "start": 3,
+          "end": 12
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 12,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "string": "115. Baglioni, A.: La coscienza del rischio e la protezione delle citta. In: Coscienza della citta: edilizia e territorio nella realta italiana. Ente autonomo fiere di bologna (1981) 119–126",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 190
+        }
+      ]
+    },
+    {
+      "string": "93. Zlokovic, B.V., Apuzzo, M.L.: Cellular and molecular neurosurgery: Pathways from concept to reality-part ii: Vector systems and delivery methodologies for gene therapy of the central nervous system. Neurosurgery 40(4) (1997) 805–813",
+      "match": [
+        {
+          "start": 4,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 18,
+          "end": 236
+        }
+      ]
+    },
+    {
+      "string": "54. Mazzoni, F., Mazzoni, F.: Saggio di un nuovo commento alla Divina commedia: Inferno, canti I-III. Sansoni (1967) ",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "string": "15. Davis, F.D., Bagozzi, R.P., Warshaw, P.R.: User acceptance of computer technology: a comparison of two theoretical models. Management science 35(8) (1989) 982–1003",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 167
+        }
+      ]
+    },
+    {
+      "string": "179. Lovecraft, H.P.: Supernatural horror in literature. Courier Dover Publications (1945)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "string": "146. Gilbert, E.S., Tarone, R., Ron, E., Bouville, A.: Thyroid cancer rates and 131i doses from nevada atmospheric nuclear bomb tests. Journal of the National Cancer Institute 90(21) (1998) 1654–1660",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 199
+        }
+      ]
+    },
+    {
+      "string": "12. Gray, J., Siewiorek, D.P.: High-availability computer systems. Computer 24(9) (1991) 39–48",
+      "match": [
+        {
+          "start": 4,
+          "end": 12
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 12,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "string": "156. Bundy, M.: Danger and survival: Choices about the bomb in the first fifty years. Vintage Books (1990)",
+      "match": [
+        {
+          "start": 5,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 14,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "string": "191. Lovecraft, H.P.: The call of Cthulhu and other weird stories. Penguin. com (1999)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "string": "163. Tester, S.J.: A history of western astrology. Boydell & Brewer (1987)",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "string": "188. Lovecraft, H.P.: The Dunwich Horror. Volume 1. Penguin UK (2008)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "string": "10. Weiser, M.: The computer for the 21st century. Scientific american 265(3) (1991) 94–104",
+      "match": [
+        {
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 14,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "string": "52. Boccaccio, G., Guerri, D., Alighieri, D.D.: Il comento alla Divina Commedia e gli altri scritti intorno a Dante. Laterza (1918)",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "string": "55. Grandgent, C.H.: La divina commedia. DC Heath (1933)",
+      "match": [
+        {
+          "start": 4,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 19,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "string": "196. Beier, C.M., Lovecraft, A.L., Chapin, F.S.: Growth and collapse of a resource system: an adaptive cycle of change in public lands governance and forest management in alaska. Ecology and Society 14(2) (2009) 5",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 213
+        }
+      ]
+    },
+    {
+      "string": "36. Burns, J.W., Siadat-Pajouh, M., Krishnaney, A.A., Greenberg, H.B.: Protective effect of rotavirus vp6-specific iga monoclonal antibodies that lack neutralizing activity. Science 272(5258) (1996) 104–107",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 206
+        }
+      ]
+    },
+    {
+      "string": "166. Eysenck, H.J., Nias, D.K.: Astrology: Science or superstition? Temple Smith (1982)",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "string": "100. Diaz, N.D., Gines, R.N.: Automatic rocking device (July 12 2006) EP Patent 1,678,025.",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "string": "56. Pagliaro, A.: Ulisse: ricerche semantiche sulla Divina commedia. Volume 1. D’Anna (1967)",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "string": "97. Nakajima, S., Atsumi, H., Kikinis, R., Moriarty, T.M., Metcalf, D.C., Jolesz, F.A., Black, P.M.: Use of cortical surface vessel registration for image-guided neurosurgery. Neurosurgery 40(6) (1997) 1201–1210",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 211
+        }
+      ]
+    },
+    {
+      "string": "154. Linzer, D.: Iran is judged 10 years from nuclear bomb. Washington Post 2 (2005) A01",
+      "match": [
+        {
+          "start": 5,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 15,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "string": "189. Lovecraft, H.P., Turner, J.: Selected letters. Volume 3. Arkham house (1971)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "string": "2. Austin, T., Larson, E., Ernst, D.: Simplescalar: An infrastructure for computer system modeling. Computer 35(2) (2002) 59–67",
+      "match": [
+        {
+          "start": 3,
+          "end": 13
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 13,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "string": "31. Majamaa, H., Isolauri, E., Saxelin, M., Vesikari, T.: Lactic acid bacteria in the treatment of acute rotavirus gastroenteritis. Journal of pediatric gastroenterology and nutrition 20(3) (1995) 333–338",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 204
+        }
+      ]
+    },
+    {
+      "string": "7. Hartley, R., Zisserman, A.: Multiple view geometry in computer vision. Volume 2. Cambridge Univ Press (2000)",
+      "match": [
+        {
+          "start": 3,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 14,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "string": "96. Matson, D.D., Ingraham, F.D.: Neurosurgery of infancy and childhood. Volume 749. Thomas Springfield, Ill (1969)",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "string": "122. Craig, H., Gordon, L.I.: Deuterium and oxygen 18 variations in the ocean and the marine atmosphere. Consiglio nazionale delle richerche, Laboratorio de geologia nucleare (1965)",
+      "match": [
+        {
+          "start": 5,
+          "end": 14
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 14,
+          "end": 181
+        }
+      ]
+    },
+    {
+      "string": "149. Kaushik, B.M., Mehrotra, O.: Pakistan’s nuclear bomb. Sopan Publishing House (1980)",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "string": "57. Alighieri, D.: La Divina commedia...: Inferno. Volume 5. Chatto & Windus (1907)",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "string": "192. Lovecraft, H.P., Skey, M., Aliotta, S.R.: L’orrore soprannaturale in letteratura. Edizioni Theoria (1989)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "string": "40. Alighieri, D.: La divina commedia. GC Sansoni (1903)",
+      "match": [
+        {
+          "start": 4,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 17,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "string": "194. Lovecraft, H.P., Bergier, J., Truchaud, F.: Epouvante et surnaturel en litt ́rature: e Supernatural horror in literature. C. Bourgois (1969)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 145
+        }
+      ]
+    },
+    {
+      "string": "184. Lovecraft, H.P.: The call of Cthulhu. United Holdings Group (2008)",
+      "match": [
+        {
+          "start": 5,
+          "end": 20
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 20,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "string": "60. Carrette, L., Friedrich, K., Stimming, U.: Fuel cells–fundamentals and applications. Fuel cells 1(1) (2001) 5–39",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "string": "136. Kondrat'ev, K.Y.: Radiation in the atmosphere. Radiation in the atmosphere., by Kondrat’ev, K. Ya.. New York, NY (USA): Academic Press, 915 p. 1 (1969)",
+      "match": [
+        {
+          "start": 5,
+          "end": 21
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 21,
+          "end": 156
+        }
+      ]
+    },
+    {
+      "string": "50. Parodi, E.G.: Poesia e storia nella” Divina Commedia”. Volume 28. N. Pozza (1965)",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "string": "123. Gossard, E.E., Hooke, W.H.: Waves in the atmosphere: atmospheric infrasound and gravity waves-their generation and propagation. Atmospheric Science 2 (1975)",
+      "match": [
+        {
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 18,
+          "end": 161
+        }
+      ]
+    },
+    {
+      "string": "77. Shao, Z., Haile, S.M.: A high-performance cathode for the next generation of solid-oxide fuel cells. Nature 431(7005) (2004) 170–173",
+      "match": [
+        {
+          "start": 4,
+          "end": 12
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 12,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "string": "150. Barnaby, F.: How to Build a Nuclear Bomb: And Other Weapons of Mass Destruction. Nation Books (2009)",
+      "match": [
+        {
+          "start": 5,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 16,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "string": "14. Farin, G.E.: Curves and Surfaces for Computer-Aided Geometric Design: A Practical Code. Academic Press, Inc. (1996)",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 119
+        }
+      ]
+    },
+    {
+      "string": "94. Rezai, A.R., Hund, M., Kronberg, E., Zonenshayn, M., Cappell, J., Ribary, U., Kall, B., Llinás, R., Kelly, P.J.: The interactive use of magnetoencephalography a in stereotactic image-guided neurosurgery. Neurosurgery 39(1) (1996) 92–102",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 240
+        }
+      ]
+    },
+    {
+      "string": "161. Sachau, E.C., et al.: Alberuni’s India: An Account of the Religion, Philosophy, Literature, Geography, Chronology, Astronomy, Customs, Laws and Astrology of India, about AD 1030. Volume 2. Taylor & Francis (1962)",
+      "match": [
+        {
+          "start": 5,
+          "end": 17
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 17,
+          "end": 217
+        }
+      ]
+    },
+    {
+      "string": "80. SIMON, E.E.: Curriculum vitae. Neurosurgery 70 (2009) 1–3",
+      "match": [
+        {
+          "start": 4,
+          "end": 15
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 15,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "string": "141. Caldwell, G.G., Kelley, D.B., Heath Jr, C.W.: Leukemia among participants in military maneuvers at a nuclear bomb test. JAMA: the journal of the American Medical Association 244(14) (1980) 1575–1578",
+      "match": [
+        {
+          "start": 5,
+          "end": 19
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 19,
+          "end": 203
+        }
+      ]
+    },
+    {
+      "string": "88. Kockro, R.A., Serra, L., Tseng-Tsai, Y., Chan, C., Yih-Yian, S., Gim-Guan, C., Lee, E., Hoe, L.Y., Hern, N., Nowinski, W.L.: Planning and simulation of neurosurgery in a virtual reality environment. Neurosurgery 46(1) (2000) 118–137",
+      "match": [
+        {
+          "start": 4,
+          "end": 16
+        }
+      ],
+      "unmatch": [
+        {
+          "start": 0,
+          "end": 4
+        },
+        {
+          "start": 16,
+          "end": 236
+        }
+      ]
+    }
+  ]
+}
