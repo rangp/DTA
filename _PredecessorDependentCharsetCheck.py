@@ -61,7 +61,7 @@ class Classifier:
             self.sub_phrase_position_function_maps.append(pred_pos_map)
 
     def _check_coverage_for_map(self, rule_map, i):
-        for rule in rule_map.keys():
+        for rule in list(rule_map.keys()):
             p, pc = SupervisedValidator.coverage_probability(
                 float(len(self.general_check.sub_phrase_data[i].full_charset)),
                 float(len(set(rule_map[rule]))),

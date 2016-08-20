@@ -47,7 +47,7 @@ class Classifier:
         for sp in self.validator.valid_sub_phrases:
             sub_phrase_lengths.append(float(len(set(sp))))
 
-        for rule in self.sub_phrase_map.keys():
+        for rule in list(self.sub_phrase_map.keys()):
             i = rule.count(self.validator.reserved_delimiter_sequence) + 1
             p, pc = SupervisedValidator.coverage_probability(
                 sub_phrase_lengths[i],

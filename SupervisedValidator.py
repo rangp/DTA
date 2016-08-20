@@ -6,7 +6,7 @@ import _PositionDependentCharsetCheck
 import _PredecessorDependentCharsetCheck
 from scipy import special
 
-import _PredecessorDependentSubPhraseCheck
+import _CombinedSubPhraseCheck
 
 
 class Validator:
@@ -75,7 +75,7 @@ class Validator:
         self.__try_add(classifier)
         self.__try_add(_PositionDependentCharsetCheck.Classifier(self, classifier))
         self.__try_add(_PredecessorDependentCharsetCheck.Classifier(self, classifier))
-        self.__try_add(_PredecessorDependentSubPhraseCheck.Classifier(self, classifier))
+        self.__try_add(_CombinedSubPhraseCheck.Classifier(self, classifier))
 
     def __try_add(self, classifier):
         if self._training_recall is 1.0 and self._training_precision is 1.0:

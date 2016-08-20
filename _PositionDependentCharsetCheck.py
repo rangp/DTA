@@ -51,7 +51,10 @@ class Classifier:
         for i, sub_phrase in enumerate(sub_phrases):
             for measure in self.known_position_measures:
                 for pos, char in enumerate(sub_phrase):
-                    if char not in self.position_maps[i][measure.name][measure.extract(pos, len(sub_phrase))]["chars"]:
+                    measurement = measure.extract(pos, len(sub_phrase))
+                    if measurement not in self.position_maps[i][measure.name]:
+                        continue;
+                    if char not in self.position_maps[i][measure.name][measurement]["chars"]:
                         # false by position rules
                         return False
 
